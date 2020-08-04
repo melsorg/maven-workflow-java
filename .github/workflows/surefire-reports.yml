@@ -5,7 +5,7 @@
 ## ---------------------
 ##
 
-name: scacap
+name: Surefire Tests
 on:
   push:
     branches: 
@@ -16,7 +16,7 @@ on:
 
 jobs:
   build:
-    name: Sunfire Tests
+    name: Surefire checks
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
