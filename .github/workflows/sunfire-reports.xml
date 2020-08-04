@@ -5,14 +5,14 @@
 ## ---------------------
 ##
 
-name: build
+name: scacap-start
 on:
   pull_request:
     branches:
       - master
 
 jobs:
-  build:
+  sunfire-build:
     name: Build and Run Tests
     runs-on: ubuntu-latest
     steps:
