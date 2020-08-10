@@ -3,4 +3,11 @@
   <groupId>com.melscoop-maven-test.app</groupId>
   <artifactId>melscoop-test-app</artifactId>
   <version>1</version>
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub melscoop Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/melscoop-test/maven-workflow-java</url>
+   </repository>
+</distributionManagement>
 </project>
